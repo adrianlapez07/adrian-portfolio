@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="The personal portfolio of Adrian Lapez, Computer Science student at BISU Candijay Campus.">
+  <title>Adrian Lapez — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/flux-lines.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+  <div class="mouse-spotlight" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Adrian Lapez home"><span class="brand-mark">AL<span>.</span></span><span class="brand-name">ADRIAN LAPEZ<small>PORTFOLIO / 2026</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#journey">Journey</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section container" id="home">
+      <div class="flux-lines-container" aria-hidden="true"><canvas class="flux-lines-canvas" id="flux-lines-canvas"></canvas></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT <span class="eyebrow-line"></span> BISU CANDIJAY</p>
+        <p class="intro-label reveal">HELLO, I'M</p>
+        <h1 class="hero-title reveal"><span>Adrian</span><br><span class="title-accent">Lapez<span class="period">.</span></span></h1>
+        <p class="hero-role reveal">Aspiring Developer <span class="role-divider">/</span> Curious by nature</p>
+        <p class="hero-description reveal">I'm a Computer Science student at BISU Candijay Campus interested in technology, programming, and building practical digital experiences.</p>
+        <div class="hero-actions reveal"><a class="button button-primary" href="#projects">Explore my work <span>↗</span></a><a class="button button-secondary" href="#contact">Contact me <span>→</span></a></div>
+        <div class="hero-meta reveal"><span class="mono">BASED IN BOHOL, PH</span><span class="meta-rule"></span><span class="mono">OPEN TO LEARNING & COLLABORATION</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Adrian Lapez profile photo">
+        <div class="visual-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="portrait-frame" data-parallax><div class="portrait-placeholder"><img class="portrait-photo" src="images/adrian-profile.png" alt="Portrait of Adrian Lapez" fetchpriority="high"></div><div class="portrait-corner corner-tl"></div><div class="portrait-corner corner-br"></div></div>
+        <div class="float-card float-card-top"><span class="float-icon">✳</span><span>BUILDING<br><b>WHAT'S NEXT</b></span></div>
+        <div class="float-card float-card-bottom"><span class="code-icon">&lt;/&gt;</span><span><b>LEARN.</b> BUILD.<br>REPEAT.</span></div>
+        <div class="visual-index mono">FIG. 01 <span>—</span> INTRODUCTION</div>
+      </div>
+      <a class="scroll-cue mono" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+    <section class="about-section section" id="about"><div class="container">
+      <div class="section-heading"><p class="eyebrow"><span class="section-number">01</span> A LITTLE ABOUT ME</p><h2>Learning today.<br><span class="muted-heading">Creating for tomorrow.</span></h2></div>
+      <div class="about-grid"><div class="about-lead"><span class="big-quote">“</span><p class="lead-copy">Technology is more than code—it's a way to turn ideas into useful experiences.</p><p class="body-copy">I'm Adrian Lapez, currently studying Computer Science at Bohol Island State University, Candijay Campus. I'm growing my skills, exploring how digital products are made, and looking for opportunities to learn by building.</p></div>
+        <div class="about-details"><article class="detail-card"><span class="detail-index mono">A / EDUCATION</span><div class="detail-icon">⌘</div><h3>Computer Science</h3><p>Bohol Island State University<br>Candijay Campus</p></article><article class="detail-card"><span class="detail-index mono">B / MINDSET</span><div class="detail-icon">↗</div><h3>Always learning</h3><p>Exploring ideas, practicing problem-solving, and improving one project at a time.</p></article></div></div>
+    </div></section>
+    <section class="skills-section section container" id="skills"><div class="section-heading heading-row"><div><p class="eyebrow"><span class="section-number">02</span> MY TOOLKIT</p><h2>Tools to turn<br><span class="muted-heading">ideas into reality.</span></h2></div><p class="heading-note">Replace these sample items with the tools and technologies you actively use or are currently learning.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol">&lt;/&gt;</span><h3>HTML5</h3><p>Structure for the web</p><span class="skill-tag">WEB</span></article>
+        <article class="skill-card"><span class="skill-symbol">✳</span><h3>CSS3</h3><p>Style and layout</p><span class="skill-tag">WEB</span></article>
+        <article class="skill-card"><span class="skill-symbol">JS</span><h3>JavaScript</h3><p>Interactive experiences</p><span class="skill-tag">WEB</span></article>
+        <article class="skill-card"><span class="skill-symbol">{ }</span><h3>More to come</h3><p>Add another confirmed skill</p><span class="skill-tag">LEARNING</span></article>
+      </div>
+    </section>
+    <section class="projects-section section" id="projects"><div class="container"><div class="section-heading heading-row"><div><p class="eyebrow"><span class="section-number">03</span> SELECTED WORK</p><h2>Ideas in progress<span class="title-accent">.</span></h2></div><p class="heading-note">A home for projects, experiments, and things built while learning. Sample cards are clearly marked—replace them before publishing.</p></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-art art-one"><div class="art-window"><div class="window-bar"><i></i><i></i><i></i></div><div class="window-content"><span class="art-line long"></span><span class="art-line medium"></span><div class="art-blocks"><i></i><i></i><i></i></div><span class="art-line short"></span></div></div><span class="art-number">01</span></div><div class="project-info"><div class="project-topline"><span class="mono project-type">PROJECT PLACEHOLDER</span><span class="project-arrow">↗</span></div><h3>Project title goes here</h3><p>Replace this description with the problem your project solves, what you built, and what you learned.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#contact" class="text-link placeholder-link" data-placeholder="true">Add project link <span>↗</span></a><span class="project-status">EDIT THIS CARD</span></div></div></article>
+        <article class="project-card"><div class="project-art art-two"><div class="dashboard-art"><div class="dash-sidebar"><i></i><i></i><i></i><i></i></div><div class="dash-main"><span class="art-line medium"></span><div class="dash-stats"><i></i><i></i><i></i></div><div class="dash-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div><span class="art-number">02</span></div><div class="project-info"><div class="project-topline"><span class="mono project-type">PROJECT PLACEHOLDER</span><span class="project-arrow">↗</span></div><h3>Another project title</h3><p>Showcase another real project here. Explain your role, key features, and technologies used.</p><div class="tag-row"><span>YOUR STACK</span><span>YOUR TOOLS</span></div><div class="project-links"><a href="#contact" class="text-link placeholder-link" data-placeholder="true">Add project link <span>↗</span></a><span class="project-status">EDIT THIS CARD</span></div></div></article>
+        <article class="project-card"><div class="project-art art-three"><div class="mobile-art"><div class="mobile-speaker"></div><div class="mobile-avatar">AL</div><span class="art-line medium"></span><span class="art-line long"></span><div class="mobile-button"></div><div class="mobile-bottom"><i></i><i></i><i></i></div></div><span class="art-number">03</span></div><div class="project-info"><div class="project-topline"><span class="mono project-type">PROJECT PLACEHOLDER</span><span class="project-arrow">↗</span></div><h3>One more thing I built</h3><p>Use this space for a school activity, personal experiment, or a project you're proud to share.</p><div class="tag-row"><span>ADD TECHNOLOGY</span><span>ADD TECHNOLOGY</span></div><div class="project-links"><a href="#contact" class="text-link placeholder-link" data-placeholder="true">Add project link <span>↗</span></a><span class="project-status">EDIT THIS CARD</span></div></div></article>
+      </div>
+    </div></section>
+    <section class="journey-section section container" id="journey"><div class="section-heading"><p class="eyebrow"><span class="section-number">04</span> THE JOURNEY</p><h2>Small steps.<br><span class="muted-heading">Steady progress.</span></h2></div><div class="timeline"><article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date mono">CURRENT CHAPTER</span><div><h3>Studying Computer Science</h3><p>Bohol Island State University, Candijay Campus.</p></div><span class="timeline-label">IN PROGRESS</span></article><article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date mono">ADD A DATE</span><div><h3>Your next milestone</h3><p>Add a technology you learned, a project you completed, or a meaningful experience.</p></div><span class="timeline-label">EDIT ME</span></article><article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date mono">FUTURE GOAL</span><div><h3>Keep building</h3><p>Describe a goal you're working toward. Keep it personal and realistic.</p></div><span class="timeline-label">UP NEXT</span></article></div></section>
+    <section class="contact-section section" id="contact"><div class="container contact-container"><div class="contact-copy"><p class="eyebrow"><span class="section-number">05</span> GET IN TOUCH</p><h2>Have an idea?<br><span class="title-accent">Let's talk.</span></h2><p class="body-copy">Interested in collaborating, sharing ideas, or connecting about technology? Send a message using the form. You can reach me by email or explore my code on GitHub.</p><div class="contact-note"><span class="status-dot"></span><span>OPEN TO CONVERSATIONS<br><small><a href="mailto:adrianlapez07@gmail.com">ADRIANLAPEZ07@GMAIL.COM</a></small></span></div><div class="contact-socials"><a href="https://github.com/adrianlapez07" target="_blank" rel="noopener noreferrer">GitHub profile <span>↗</span></a><a href="mailto:adrianlapez07@gmail.com">Email Adrian <span>↗</span></a></div></div>
+      <form class="contact-form" id="contact-form" novalidate><div class="form-heading"><span class="mono">SEND A MESSAGE</span><span class="form-star">✳</span></div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="e.g. Alex Santos"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="alex@example.com"><label for="subject">Subject</label><input id="subject" name="subject" required placeholder="What would you like to discuss?"><label for="message">Message</label><textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea><button class="button button-primary submit-button" type="submit">Prepare email <span>↗</span></button><p class="form-help" id="form-status" aria-live="polite">This form opens your email app; it does not send messages directly.</p></form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">AL<span>.</span></span><span class="brand-name">ADRIAN LAPEZ<small>STUDENT · BUILDER · LEARNER</small></span></a><p class="footer-note">Curiosity in mind.<br><span>Possibility in code.</span></p><a class="back-top mono" href="#top">BACK TO TOP ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Adrian Lapez. Built with intention.</span><span class="mono">DESIGNED TO KEEP EVOLVING <span class="blue-dot">●</span></span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
